@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepak Nayak - CV</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f2f4f7;
+      color: #222;
+      line-height: 1.5;
+    }
+    .cv {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 30px auto;
+      padding: 18mm;
+      background: #fff;
+      box-shadow: 0 4px 20px rgba(0,0,0,.12);
+    }
+    header {
+      border-bottom: 2px solid #222;
+      padding-bottom: 14px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: .5px;
+    }
+    .subtitle {
+      margin: 4px 0 10px;
+      font-size: 16px;
+      color: #555;
+    }
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      font-size: 13px;
+    }
+    a { color: #222; text-decoration: none; }
+    section { margin-bottom: 20px; }
+    h2 {
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #bbb;
+      padding-bottom: 5px;
+      margin: 0 0 10px;
+    }
+    p { margin: 0 0 8px; }
+    .education-title {
+      font-weight: bold;
+      font-size: 15px;
+    }
+    .muted { color: #666; }
+    ul {
+      margin: 6px 0 0;
+      padding-left: 20px;
+    }
+    li { margin-bottom: 5px; }
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px 30px;
+    }
+    .placeholder {
+      color: #777;
+      font-style: italic;
+    }
+    @media print {
+      body { background: #fff; }
+      .cv {
+        width: 100%;
+        min-height: auto;
+        margin: 0;
+        padding: 15mm;
+        box-shadow: none;
+      }
+    }
+    @media (max-width: 800px) {
+      .cv { width: 100%; margin: 0; padding: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="cv">
+    <header>
+      <h1>Deepak Nayak</h1>
+      <div class="subtitle">Bachelor of Business Administration (BBA) Student</div>
+      <div class="contact">
+        <span>+91 9876543210</span>
+        <span>deepak@example.com</span>
+        <span>Bhubaneswar, Odisha</span>
+        <a href="https://linkedin.com/in/deepaknayak" target="_blank">LinkedIn</a>
+        <a href="https://github.com/deepaknayak" target="_blank">GitHub</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Motivated and enthusiastic first-year Bachelor of Business Administration (BBA)
+        student with a strong interest in business management, marketing, finance, and
+        entrepreneurship. Eager to apply classroom knowledge in practical settings while
+        developing leadership, communication, and analytical skills. A quick learner with
+        a positive attitude, strong work ethic, and a commitment to continuous learning
+        and professional growth.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="education-title">Bachelor of Business Administration (BBA)</div>
+      <div class="muted">[College / University Name] · [Expected Graduation Year]</div>
+      <p>First-year student</p>
+    </section>
+
+    <section>
+      <h2>Core Skills</h2>
+      <div class="skills">
+        <div>• Communication</div>
+        <div>• Teamwork</div>
+        <div>• Leadership</div>
+        <div>• Problem Solving</div>
+        <div>• Analytical Thinking</div>
+        <div>• Time Management</div>
+        <div>• Microsoft Office</div>
+        <div>• Presentation Skills</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Academic Interests</h2>
+      <ul>
+        <li>event Management</li>
+        <li>Marketing</li>
+        <li>Entrepreneurship</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects & Activities</h2>
+      <p class="placeholder">Add academic projects, college activities, certifications, competitions, volunteering, or internships here.</p>
+    </section>
+
+    <section>
+      <h2>Certifications & Achievements</h2>
+      <p class="placeholder">Add relevant certifications, awards, achievements, or courses here.</p>
+    </section>
+
+    <section>
+      <h2>Additional Information</h2>
+      <p class="placeholder">Add languages, interests, or other relevant information here.</p>
+    </section>
+  </main>
+</body>
+</html>
